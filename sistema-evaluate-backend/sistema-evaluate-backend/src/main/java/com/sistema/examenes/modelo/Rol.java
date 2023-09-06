@@ -1,7 +1,6 @@
-package com.evaluate.modelo;
+package com.sistema.examenes.modelo;
 
-import jakarta.persistence.*;
-
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -11,11 +10,19 @@ public class Rol {
 
     @Id
     private Long rolId;
-    private String nombre;
+    private String rolNombre;
 
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "rol")
     private Set<UsuarioRol> usuarioRoles = new HashSet<>();
 
+    public Rol(){
+
+    }
+
+    public Rol(Long rolId, String rolNombre) {
+        this.rolId = rolId;
+        this.rolNombre = rolNombre;
+    }
 
     public Long getRolId() {
         return rolId;
@@ -25,12 +32,12 @@ public class Rol {
         this.rolId = rolId;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getRolNombre() {
+        return rolNombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setRolNombre(String rolNombre) {
+        this.rolNombre = rolNombre;
     }
 
     public Set<UsuarioRol> getUsuarioRoles() {
@@ -39,9 +46,5 @@ public class Rol {
 
     public void setUsuarioRoles(Set<UsuarioRol> usuarioRoles) {
         this.usuarioRoles = usuarioRoles;
-    }
-
-    public Rol(){
-
     }
 }
