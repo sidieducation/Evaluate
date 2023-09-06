@@ -1,7 +1,6 @@
-package com.evaluate.modelo;
+package com.sistema.examenes.modelo;
 
-import jakarta.persistence.*;
-
+import javax.persistence.*;
 
 @Entity
 public class UsuarioRol {
@@ -15,7 +14,6 @@ public class UsuarioRol {
 
     @ManyToOne
     private Rol rol;
-
 
     public Long getUsuarioRolId() {
         return usuarioRolId;
@@ -39,9 +37,5 @@ public class UsuarioRol {
 
     public void setRol(Rol rol) {
         this.rol = rol;
-    }
-
-    public UsuarioRol(){
-
     }
 }
