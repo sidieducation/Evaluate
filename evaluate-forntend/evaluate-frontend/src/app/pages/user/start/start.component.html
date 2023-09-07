@@ -2,7 +2,6 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-2">
-        <!--Instrucciones-->
         <mat-card style = "margin-top: 70px;">
           <mat-card-content>
             <h3><b>Instrucciones</b></h3>
@@ -15,7 +14,6 @@
         </mat-card>
       </div>
       <div class="col-md-7">
-        <!--Preguntas-->
         <ng-container *ngIf = "preguntas">
           <h1 class="mt20">
             En curso <b>{{ preguntas[0].examen.titulo }}</b>
@@ -48,7 +46,6 @@
         </div>
       </div>
       <div class="col-md-3">
-        <!--Progreso-->
         <mat-card style ="margin-top:70px;">
           <mat-card-header>
             <mat-card-title>
