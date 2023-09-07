@@ -1,0 +1,32 @@
+.example-card {
+    max-width: 400px;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.example-header-image {
+    background-image: url('./../../../assets/icons/bg-home.svg');
+    background-size: cover;
+}
+.example-card-form {
+    max-width: 400px;
+    margin-left: 960px;
+    display: block;
+   margin-top: -660px;
+}
+
+.example-header-image {
+    background-image: url('./../../../assets/icons/aprove.svg');
+    background-size: cover;
+}
+.example-card-form-practise {
+    max-width: 400px;
+    margin-left: 1900px;
+    display: block;
+    margin-top: -640px;
+}
+
+.example-header-image {
+    background-image: url('./../../../assets/icons/tests.svg');
+    background-size: cover;
+}
