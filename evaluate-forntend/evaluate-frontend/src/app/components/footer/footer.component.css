@@ -1,6 +1,8 @@
-/* .footer {
-    margin-top: 332px;
-    height: 150px;
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+    
 }
 .title-ev {
    margin-left: 850px;
@@ -12,4 +14,4 @@
 .name {
     color: #00B5FF;
     background: #FFFFFF;
-} */
+}
