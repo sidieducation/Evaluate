@@ -1,0 +1,10 @@
+.mat-toolbar {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 1px 0.5px;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+.t {
+  color: #00B5FF;
+}

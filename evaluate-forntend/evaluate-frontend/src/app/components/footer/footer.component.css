@@ -1,0 +1,17 @@
+.footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+    
+}
+.title-ev {
+   margin-left: 850px;
+   color: #000000;
+}
+.copy {
+    color: #FFFFFF;
+}
+.name {
+    color: #00B5FF;
+    background: #FFFFFF;
+}
