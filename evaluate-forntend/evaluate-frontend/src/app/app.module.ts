@@ -42,7 +42,7 @@ import { LoadExamenComponent } from './pages/user/load-examen/load-examen.compon
 import { InstruccionesComponent } from './pages/user/instrucciones/instrucciones.component';
 import { StartComponent } from './pages/user/start/start.component';
 import { NgxUiLoaderModule , NgxUiLoaderHttpModule } from "ngx-ui-loader";
-import { FooterComponent } from './components/footer/footer.component';
+import { FooterComponent } from './modules/shared/footer/footer.component';
 
 @NgModule({
   declarations: [
